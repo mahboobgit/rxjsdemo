@@ -1,0 +1,36 @@
+{
+  "name": "reactive",
+  "version": "1.0.0",
+  "description": "Reactive Programming Tryout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "webpack-dev-server --watch --inline",
+    "postinstall" : ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahboobgit/reactive.git"
+  },
+  "keywords": [
+    "reactive",
+    "rxjs"
+  ],
+  "author": "mahboob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahboobgit/reactive/issues"
+  },
+  "homepage": "https://github.com/mahboobgit/reactive#readme",
+  "dependencies": {
+    "@types/es6-promise": "0.0.33",
+    "@types/es6-shim": "^0.31.35",
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.6",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
